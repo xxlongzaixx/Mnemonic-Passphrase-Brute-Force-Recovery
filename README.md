@@ -1,3 +1,4 @@
+
 # Mnemonic-Passphrase-Brute-Force-Recovery
 A Python script designed to brute force all specified permutations in order to check the balance or attempt to recover an address.
 
@@ -15,11 +16,15 @@ pip install -r requirements.txt
 
 Usage
 -----------------
-Step 1 : Run the following command will output all possible permutations of the passphrase to phrase.txt, it will screen through and removed the invalid ones.
+Step 1: Navigate to the source directory.
 ```
-py src/screen.py
+cd src
 ```
-Step 2: Run the following command to check the balance of each mnemonic passphrase account and stop when it finds a balance greater than 0.
+Step 2 : Run the following command will output all possible permutations of the passphrase to phrase.txt, it will screen through and removed the invalid ones.
 ```
-py src/balance.py
+py screen.py
+```
+Step 3: Run the following command to check the balance of each mnemonic passphrase account and stop when it finds a balance greater than 0.
+```
+py balance.py
 ```
